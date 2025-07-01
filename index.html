@@ -3,11 +3,58 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Ninna Carducci || Photographe professionnelle</title>
+        <title>Ninna Carducci || Photographe professionnelle à l'Île-de-France</title>
         <meta
             name="description"
-            content="Photographe professionnelle à votre service. Séances photo, retouche d’images et albums personnalisés pour capturer vos plus beaux moments."
+            content="Photographe professionnelle en Île-de-France. Séances photo, retouche d’images et albums personnalisés pour capturer vos plus beaux moments."
         />
+        <!-- Métadonnées d'entreprise locale  -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ProfessionalService",
+                "name": "Ninna Carducci photographe",
+                "image": "./assets/images/nina-OP.webp",
+                "url": "http://www.index.html",
+                "description": "Séances photo, retouche d’images et albums personnalisés en Île-de-France.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Île-de-France",
+                    "addressCountry": "FR"
+                },
+                "priceRange": "€€",
+                "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+            }
+        </script>
+
+        <!-- Métadonnées d'image -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "contentUrl": "	http://127.0.0.1:5500/assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-OP.webp",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Ninna Carducci"
+                },
+                "description": "Rappeur en concert entouré de fumée et de lumières colorées",
+                "copyrightHolder": {
+                    "@type": "Person",
+                    "name": "Ninna Carducci"
+                },
+                "license": "https://www.ninacarducci.fr/licence-photo"
+            }
+        </script>
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Nina Carducci - Photographe professionnelle à l'Île-de-France" />
+        <meta property="og:description" content="Séances photo, retouches et albums sur mesure. Découvrez mon univers artistique." />
+        <meta property="og:image" content="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-OP.webp" />
+        <meta property="og:url" content="https://www.index.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="Nina Carducci Photographe" />
+
         <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="./assets/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -104,10 +151,10 @@
                     </div>
                     <div id="about-me">
                         <h2 class="about-me__title">A propos de moi</h2>
-                        <h4 class="about-me__introduction">
+                        <h3 class="about-me__introduction">
                             Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une
                             situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-                        </h4>
+                        </h3>
                         <p>
                             Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers
                             de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
@@ -228,7 +275,7 @@
                                 </p>
                             </div>
                             <div class="service__price">
-                                <h4>50€/photo</h4>
+                                <p>50€/photo</p>
                                 <span>2 AR par photo</span>
                             </div>
                         </div>
@@ -241,7 +288,7 @@
                                 </p>
                             </div>
                             <div class="service__price">
-                                <h4>400€ album A4</h4>
+                                <p>400€ album A4</p>
                                 <span>30 pages recto/verso</span>
                             </div>
                         </div>

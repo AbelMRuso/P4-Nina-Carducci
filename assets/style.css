@@ -162,6 +162,15 @@ body {
     background-color: #a8d5d8;
     position: relative;
 }
+
+.service__price {
+    font-size: 24px;
+}
+
+.service__price span {
+    font-size: 16px;
+}
+
 #services .container::before {
     content: " ";
     background-color: #1c6474;
