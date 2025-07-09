@@ -208,6 +208,7 @@
                 return;
             }
             $(".active-tag").removeClass("active active-tag");
+            /* Adition de la class active pour le bon fonctionnement visuel des filtres */
             $(this).addClass("active active-tag");
 
             var tag = $(this).data("images-toggle");

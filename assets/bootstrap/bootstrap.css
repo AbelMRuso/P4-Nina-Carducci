@@ -6360,6 +6360,7 @@ fieldset:disabled .btn {
     width: 15%;
     padding: 0;
     color: #fff;
+    background-color: red;
     text-align: center;
     background: none;
     border: 0;
